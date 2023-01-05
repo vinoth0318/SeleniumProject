@@ -1,0 +1,445 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 14370205900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Launch the browser and maximize the window",
+            "match": {
+              "location": "Cucumber4ch.launch_the_browser_and_maximize_the_window()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "To validate the login of facebook",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-facebook-application;to-validate-the-login-of-facebook",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5322399700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "To launch the url of fb",
+            "match": {
+              "location": "Cucumber4ch.to_launch_the_url_of_fb()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 793791100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "To pass the email in \"\u003ccucmber@gmail.com\u003e\" email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003ccucmber@gmail.com\u003e\"",
+                  "offset": 21
+                }
+              ],
+              "location": "Cucumber4ch.to_pass_the_email_in_email_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 590427800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "To pass the password \"\u003cpassworddatas\u003e\" in password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cpassworddatas\u003e\"",
+                  "offset": 21
+                }
+              ],
+              "location": "Cucumber4ch.to_pass_the_password_in_password_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 673465100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "To click the login button",
+            "match": {
+              "location": "Cucumber4ch.to_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1581191000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "To close the browser",
+            "match": {
+              "location": "Cucumber4ch.to_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3745878400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Launch the browser and maximize the window",
+            "match": {
+              "location": "Cucumber4ch.launch_the_browser_and_maximize_the_window()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "User has to login fb",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-facebook-application;user-has-to-login-fb;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5706069000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User has to launch url",
+            "match": {
+              "location": "Cucumber4ch.user_has_to_launch_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 311650100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User has to pass \"vinoth123@gmail.com\" the email",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"vinoth123@gmail.com\"",
+                  "offset": 17
+                }
+              ],
+              "location": "Cucumber4ch.user_has_to_pass_the_email(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 281306400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User has to pass \"12345678\" the password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"12345678\"",
+                  "offset": 17
+                }
+              ],
+              "location": "Cucumber4ch.user_has_to_pass_the_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 182681600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User has to click login",
+            "match": {
+              "location": "Cucumber4ch.user_has_to_click_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1464959500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User close the browser",
+            "match": {
+              "location": "Cucumber4ch.user_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3578467400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Launch the browser and maximize the window",
+            "match": {
+              "location": "Cucumber4ch.launch_the_browser_and_maximize_the_window()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "User has to login fb",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-facebook-application;user-has-to-login-fb;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6546600100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User has to launch url",
+            "match": {
+              "location": "Cucumber4ch.user_has_to_launch_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 348692400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User has to pass \"vijay321@gmail.com\" the email",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"vijay321@gmail.com\"",
+                  "offset": 17
+                }
+              ],
+              "location": "Cucumber4ch.user_has_to_pass_the_email(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 266040100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User has to pass \"87654321\" the password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"87654321\"",
+                  "offset": 17
+                }
+              ],
+              "location": "Cucumber4ch.user_has_to_pass_the_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 155636100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User has to click login",
+            "match": {
+              "location": "Cucumber4ch.user_has_to_click_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 941026400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User close the browser",
+            "match": {
+              "location": "Cucumber4ch.user_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3497593400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Launch the browser and maximize the window",
+            "match": {
+              "location": "Cucumber4ch.launch_the_browser_and_maximize_the_window()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 26,
+        "name": "User has to login fb",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-facebook-application;user-has-to-login-fb;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5504805700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User has to launch url",
+            "match": {
+              "location": "Cucumber4ch.user_has_to_launch_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 301912200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User has to pass \"abcd123@gmail.com\" the email",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abcd123@gmail.com\"",
+                  "offset": 17
+                }
+              ],
+              "location": "Cucumber4ch.user_has_to_pass_the_email(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 274088100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User has to pass \"vvvvvvvv\" the password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"vvvvvvvv\"",
+                  "offset": 17
+                }
+              ],
+              "location": "Cucumber4ch.user_has_to_pass_the_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 265103600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User has to click login",
+            "match": {
+              "location": "Cucumber4ch.user_has_to_click_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 828991400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User close the browser",
+            "match": {
+              "location": "Cucumber4ch.user_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "To validate the login functionality of facebook application",
+    "description": "",
+    "id": "to-validate-the-login-functionality-of-facebook-application",
+    "keyword": "Feature",
+    "uri": "src/test/resources/sample.feature",
+    "tags": []
+  }
+]

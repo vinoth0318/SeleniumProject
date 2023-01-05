@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="57.559195">
+    <testcase classname="To validate the login functionality of facebook application" name="To validate the login of facebook" time="23.352194">
+        <system-out><![CDATA[Given Launch the browser and maximize the window............................passed
+When To launch the url of fb................................................passed
+And To pass the email in "<cucmber@gmail.com>" email field..................passed
+And To pass the password "<passworddatas>" in password field................passed
+And To click the login button...............................................passed
+Then To close the browser...................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To validate the login functionality of facebook application" name="User has to login fb" time="11.693627">
+        <system-out><![CDATA[Given Launch the browser and maximize the window............................passed
+When User has to launch url.................................................passed
+And User has to pass "vinoth123@gmail.com" the email........................passed
+And User has to pass "12345678" the password................................passed
+And User has to click login.................................................passed
+Then User close the browser.................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To validate the login functionality of facebook application" name="User has to login fb 2" time="11.838789">
+        <system-out><![CDATA[Given Launch the browser and maximize the window............................passed
+When User has to launch url.................................................passed
+And User has to pass "vijay321@gmail.com" the email.........................passed
+And User has to pass "87654321" the password................................passed
+And User has to click login.................................................passed
+Then User close the browser.................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To validate the login functionality of facebook application" name="User has to login fb 3" time="10.674585">
+        <system-out><![CDATA[Given Launch the browser and maximize the window............................passed
+When User has to launch url.................................................passed
+And User has to pass "abcd123@gmail.com" the email..........................passed
+And User has to pass "vvvvvvvv" the password................................passed
+And User has to click login.................................................passed
+Then User close the browser.................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
